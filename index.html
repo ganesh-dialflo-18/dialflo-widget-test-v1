@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dialflo Web Voice — Test</title>
+</head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; padding: 2rem; max-width: 640px; margin: 0 auto;">
+  <h1>Dialflo Web Voice — Test</h1>
+  <p>Click the <strong>🎤 Talk to us</strong> button in the bottom-right corner and start speaking to the agent.</p>
+  <p style="color:#666;font-size:14px;">Agent: <code>3</code> · Core: <code>staging</code> · Served over HTTPS (GitHub Pages).</p>
+
+  <!--
+    widget.js  → downloaded from the STAGING DASHBOARD (static file, no backend).
+    data-core-base → points the widget's API call at STAGING CORE (/api/v1/web/connect).
+    data-agent-id  → which agent to reach (registered in core for this domain).
+  -->
+  <script
+    src="https://stage.dashboard.dialflo.ai/widget.js"
+    data-agent-id="3"
+    data-core-base="https://api.stage.dialflo.ai"></script>
+</body>
+</html>
